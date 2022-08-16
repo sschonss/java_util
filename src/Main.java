@@ -14,8 +14,6 @@ public class Main {
         int age3 = ages[2];
         int age4 = ages[3];
         int age5 = ages[4];
-
-        System.out.println(age5);
         System.out.println(ages.length);
     }
 }
