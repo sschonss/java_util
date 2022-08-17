@@ -7,5 +7,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../studies-package/bytebank-herdado-conta/out/artifacts/bytebank_herdado_conta_jar/bytebank-herdado-conta.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../studies-package/bytebank-herdado-conta/out/artifacts/bytebank_herdado_conta_jar/bytebank-herdado-conta.jar!/" />
+          <root url="file://$MODULE_DIR$/../studies-package/bytebank-herdado-conta/out/artifacts/bytebank_herdado_conta_jar" />
+          <root url="file://$MODULE_DIR$/../studies-package/bytebank-herdado-conta/out/production" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

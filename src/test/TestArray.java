@@ -1,4 +1,6 @@
-public class Main {
+package test;
+
+public class TestArray {
     public static void main(String[] args) {
 
         int [] ages = new int[5];
