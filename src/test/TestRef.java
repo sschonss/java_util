@@ -1,5 +1,3 @@
-package test;
-
 import br.com.schons.banco.model.Conta;
 import br.com.schons.banco.model.ContaCorrente;
 import br.com.schons.banco.model.ContaPoupanca;
