@@ -7,17 +7,17 @@ import java.util.ArrayList;
 
 public class Teste {
     public static void main(String[] args) {
-        ArrayList list = new ArrayList();
+        ArrayList<Conta> list = new ArrayList();
 
-        Conta cc = new ContaCorrente(22,11);
+        Conta cc = new ContaCorrente(22,41);
         list.add(cc);
 
-        Conta cc2 = new ContaCorrente(33,11);
+        Conta cc2 = new ContaCorrente(33,45);
         list.add(cc2);
 
         System.out.println("Tamanho: " + list.size());
 
-        Conta ref = (Conta) list.get(0);
+        Conta ref = list.get(0);
 
         System.out.println(ref.getNumero());
 
@@ -25,13 +25,13 @@ public class Teste {
 
         System.out.println("Tamanho: " + list.size());
 
-        Conta cc3 = new ContaCorrente(42,11);
+        Conta cc3 = new ContaCorrente(42,23);
         list.add(cc3);
 
-        Conta cc4 = new ContaCorrente(65,11);
+        Conta cc4 = new ContaCorrente(65,43);
         list.add(cc4);
 
-        Conta cc5 = new ContaCorrente(65,11);
+        Conta cc5 = new ContaCorrente(65,12);
         list.add(cc5);
 
         Conta cc6 = new ContaCorrente(65,11);
@@ -39,13 +39,10 @@ public class Teste {
 
         System.out.println("Tamanho: " + list.size());
 
-       //for (int i = 0; i < list.size(); i++) {
-       //    Object obj = list.get(i);
-       //    System.out.println(obj);
-       //}
+        System.out.println("----------------------------------------------------");
 
-        for(Object obj : list) {
-            System.out.println(obj);
+        for(Conta obj : list) {
+            System.out.println(obj.getNumero());
         }
     }
 }

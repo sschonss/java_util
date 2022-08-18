@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e60217-5424-4a0b-83d5-3fd1798b888f" name="Changes" comment="Start studies">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/GuardadorDeContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/GuardadorObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestArrayString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestGuardador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/util/Teste.java" afterDir="false" />
+    <list default="true" id="25e60217-5424-4a0b-83d5-3fd1798b888f" name="Changes" comment="ArrayList and more">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "4a0162",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/DEV/studies-package/bytebank-herdado-conta/out/production",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;4a0162&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DEV/studies-package/bytebank-herdado-conta/out/production&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Teste">
     <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.TestArray" />
@@ -119,7 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660689519259</updated>
-      <workItem from="1660689520839" duration="6020000" />
+      <workItem from="1660689520839" duration="6306000" />
+      <workItem from="1660864225846" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="Start studies">
       <created>1660690175310</created>
@@ -135,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660690279453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ArrayList and more">
+      <created>1660695919065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660695919065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start studies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start studies" />
+    <MESSAGE value="ArrayList and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList and more" />
   </component>
 </project>
