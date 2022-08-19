@@ -4,10 +4,11 @@ import br.com.schons.banco.model.Conta;
 import br.com.schons.banco.model.ContaCorrente;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class TesteArrayEquals {
     public static void main(String[] args) {
-        ArrayList<Conta> list = new ArrayList<Conta>();
+        LinkedList<Conta> list = new LinkedList<Conta>();
 
         Conta cc = new ContaCorrente(22,41);
         list.add(cc);
